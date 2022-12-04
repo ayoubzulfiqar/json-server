@@ -310,3 +310,28 @@ func main() {
 ## Final Thoughts:-
 
 I know that is not perfect way to do everything but It's a simple and straight forward wa to do and Basically if we visit th official website [GO DOCS for RestFUL API Using GIn](https://go.dev/doc/tutorial/web-service-gin) the few of the stuff is outdated because many things has changed after the new Updates I hope this may help to those who are curious to explore different things in LIFE
+
+## Declaimer:-
+
+Few of end-points I have changed
+
+```http
+// To get all the DATA
+
+localhost:8080/games
+
+// To get Specific DATA
+
+localhost:8080/games/<ID>
+
+// To post REQUEST
+localhost:8080/post
+
+// To Delete based on specific ID
+
+localhost:8080/delete/<ID>
+
+// To PATCH -- UPDATE based on ID
+
+localhost:8080/update/<ID>
+```
